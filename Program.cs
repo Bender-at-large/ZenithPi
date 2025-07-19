@@ -2,6 +2,7 @@
 using System.Device.Gpio;
 using System.Device.Spi;
 using System.Threading;
+
 class Program
 {
     private static readonly GpioController _gpio = new GpioController();
@@ -13,7 +14,7 @@ class Program
         {
             ClockFrequency = 1000000,
             Mode = SpiMode.Mode0,
-            DataBitLength = 8
+            DataBitLength = 8,
         };
 
         using SpiDevice spi = SpiDevice.Create(spiSettings);
@@ -26,6 +27,7 @@ class Program
         for (int i = 0; i < 128; i++)
             SendData((byte)(i % 2 == 0 ? 0xAA : 0x55), spi);
 
+        Thread.Sleep(2000);
         SendCommand(0xAE, spi); // Display OFF
     }
 
@@ -42,9 +44,12 @@ class Program
         SendCommand(0x62, spi); // Display start line
         SendCommand(0xA0, spi); // Segment remap
         SendCommand(0xC0, spi); // COM scan direction
-        SendCommand(0xA8, spi); SendCommand(0x7F, spi); // Multiplex ratio
-        SendCommand(0xD3, spi); SendCommand(0x00, spi); // Display offset
-        SendCommand(0xAD, spi); SendCommand(0x8B, spi); // DC-DC control
+        SendCommand(0xA8, spi);
+        SendCommand(0x7F, spi); // Multiplex ratio
+        SendCommand(0xD3, spi);
+        SendCommand(0x00, spi); // Display offset
+        SendCommand(0xAD, spi);
+        SendCommand(0x8B, spi); // DC-DC control
         SendCommand(0xA6, spi); // Normal display
         SendCommand(0xAF, spi); // Display ON
     }
@@ -61,8 +66,8 @@ class Program
                 SendData(0x00, spi); // Clear page
         }
     }
-    
-     private static void SendData(byte data, SpiDevice spi)
+
+    private static void SendData(byte data, SpiDevice spi)
     {
         _gpio.Write(_dcPin, PinValue.High);
         spi.WriteByte(data);
