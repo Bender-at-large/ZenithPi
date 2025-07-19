@@ -41,7 +41,7 @@ class Program
     {
         SendCommand(0xAE, spi); // Display OFF
         SendCommand(0xDC, spi);
-        SendCommand(0x62, spi); // Display start line
+        SendCommand(0x00, spi); // Display start line
         SendCommand(0xA0, spi); // Segment remap
         SendCommand(0xC0, spi); // COM scan direction
         SendCommand(0xA8, spi);
