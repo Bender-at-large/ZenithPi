@@ -50,7 +50,7 @@ public class Sh1107
         SendCommand(0xA8);
         SendCommand(0x7F); // Multiplex
         SendCommand(0xD3);
-        SendCommand(0x60); // Display offset
+        SendCommand(0x00); // Display offset
         SendCommand(0xD5);
         SendCommand(0x50); // Clock divide
         SendCommand(0xA6); // Normal display
