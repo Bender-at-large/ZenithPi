@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8HMxF/wVthc=",
+  "dgSpecHash": "UHEP/QwAH0w=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPiStartUp\\ZenithPiStartUp.csproj",
+  "projectFilePath": "C:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPiStartUp\\ZenithPiStartUp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bende\\.nuget\\packages\\iot.device.bindings\\4.0.1\\iot.device.bindings.4.0.1.nupkg.sha512",
     "C:\\Users\\Bende\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

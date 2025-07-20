@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2kwxwWMorGw=",
+  "dgSpecHash": "OpBgrC5r7EU=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPiHost\\ZenithPiHost.csproj",
+  "projectFilePath": "C:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPiHost\\ZenithPiHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bende\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.18\\microsoft.aspnetcore.openapi.8.0.18.nupkg.sha512",
     "C:\\Users\\Bende\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

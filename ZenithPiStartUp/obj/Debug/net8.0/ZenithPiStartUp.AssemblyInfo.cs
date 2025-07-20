@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZenithPiStartUp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4da663542108299dddd31a398572051e14ff90c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9e78d385ca9548dadb85df9ac292a88dea4d39d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZenithPiStartUp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZenithPiStartUp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

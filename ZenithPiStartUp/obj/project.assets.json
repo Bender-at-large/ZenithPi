@@ -1174,11 +1174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPiStartUp\\ZenithPiStartUp.csproj",
+      "projectUniqueName": "C:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPiStartUp\\ZenithPiStartUp.csproj",
       "projectName": "ZenithPiStartUp",
-      "projectPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPiStartUp\\ZenithPiStartUp.csproj",
+      "projectPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPiStartUp\\ZenithPiStartUp.csproj",
       "packagesPath": "C:\\Users\\Bende\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPiStartUp\\obj\\",
+      "outputPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPiStartUp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1193,11 +1193,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj": {
-              "projectPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj"
+            "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj": {
+              "projectPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj"
             },
-            "c:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj": {
-              "projectPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj"
+            "C:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj": {
+              "projectPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj"
             }
           }
         }
