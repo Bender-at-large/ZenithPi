@@ -1170,11 +1170,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bende\\Documents\\ZenithPi\\HelloOled.csproj",
+      "projectUniqueName": "c:\\Users\\Bende\\Documents\\ZenithPi\\HelloOled.csproj",
       "projectName": "HelloOled",
-      "projectPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\HelloOled.csproj",
+      "projectPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\HelloOled.csproj",
       "packagesPath": "C:\\Users\\Bende\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\obj\\",
+      "outputPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bende\\AppData\\Roaming\\NuGet\\NuGet.Config"

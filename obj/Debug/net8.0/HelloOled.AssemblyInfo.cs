@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HelloOled")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+231bbdea86134fa3745d790f30775526ab6338cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28e425e401e129bf1d41eb0acd25e389b6ab32fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("HelloOled")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HelloOled")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

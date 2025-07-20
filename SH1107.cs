@@ -73,6 +73,23 @@ public class Sh1107
         }
     }
 
+    public void DrawText(string text, int page, int column)
+    {
+        SendCommand((byte)(0xB0 + page)); // Set page
+        SendCommand(0x10); // High column
+        SendCommand((byte)(column & 0x0F)); // Low column
+
+        foreach (char c in text)
+        {
+            if (Font5x8.Glyphs.TryGetValue(c, out var glyph))
+            {
+                foreach (byte b in glyph)
+                    SendData(b);
+                SendData(0x00); // Space between characters
+            }
+        }
+    }
+
     public void Clear()
     {
         for (int page = 0; page < 8; page++)

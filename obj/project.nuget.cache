@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rrE5pFaeHbg=",
+  "dgSpecHash": "Dmp135MZGFE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bende\\Documents\\ZenithPi\\HelloOled.csproj",
+  "projectFilePath": "c:\\Users\\Bende\\Documents\\ZenithPi\\HelloOled.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bende\\.nuget\\packages\\iot.device.bindings\\4.0.1\\iot.device.bindings.4.0.1.nupkg.sha512",
     "C:\\Users\\Bende\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

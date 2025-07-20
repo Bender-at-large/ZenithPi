@@ -31,6 +31,14 @@ class Program
 
         Thread.Sleep(2000);
 
+        oled1.Clear();
+        oled1.DrawText("Hello Pi", page: 0, column: 2);
+
+        oled2.Clear();
+        oled2.DrawText("Hello Pi", page: 0, column: 2);
+
+        Thread.Sleep(5000);
+
         // Clear and turn off both displays
         oled1.Clear();
         oled1.TurnOff();
@@ -38,4 +46,19 @@ class Program
         oled2.Clear();
         oled2.TurnOff();
     }
+}
+
+public static class Font5x8
+{
+    public static readonly Dictionary<char, byte[]> Glyphs = new()
+    {
+        ['H'] = new byte[] { 0x7F, 0x08, 0x08, 0x08, 0x7F },
+        ['e'] = new byte[] { 0x3C, 0x4A, 0x4A, 0x4A, 0x30 },
+        ['l'] = new byte[] { 0x00, 0x41, 0x7F, 0x40, 0x00 },
+        ['o'] = new byte[] { 0x3E, 0x41, 0x41, 0x41, 0x3E },
+        ['P'] = new byte[] { 0x7F, 0x09, 0x09, 0x09, 0x06 },
+        ['i'] = new byte[] { 0x00, 0x41, 0x7F, 0x40, 0x00 },
+        [' '] = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00 },
+        // Add more as needed
+    };
 }
