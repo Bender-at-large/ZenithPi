@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayCore", "DisplayCore\DisplayCore.csproj", "{206B625F-6423-4E8E-88BB-0242BE7F288F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayEmulator", "DisplayEmulator\DisplayEmulator.csproj", "{5779A4D3-878C-4BC2-ABBC-329ED4238510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PimoroniSh1107Driver", "PimoroniSh1107Driver\PimoroniSh1107Driver.csproj", "{7A48B5CF-2485-45C4-B2C8-5EFB5E5A1B7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenithPiStartUp", "ZenithPiStartUp\ZenithPiStartUp.csproj", "{E9345D5B-EEFB-41E4-9E7A-B664DF54865A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenithPi", "ZenithPi\ZenithPi.csproj", "{56D00765-0E0D-4E89-8D9E-29C1CC44A7FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenithPiHost", "ZenithPiHost\ZenithPiHost.csproj", "{D37342AB-89DA-4952-9FB8-E6C6789D4F57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206B625F-6423-4E8E-88BB-0242BE7F288F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206B625F-6423-4E8E-88BB-0242BE7F288F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206B625F-6423-4E8E-88BB-0242BE7F288F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206B625F-6423-4E8E-88BB-0242BE7F288F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5779A4D3-878C-4BC2-ABBC-329ED4238510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5779A4D3-878C-4BC2-ABBC-329ED4238510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5779A4D3-878C-4BC2-ABBC-329ED4238510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5779A4D3-878C-4BC2-ABBC-329ED4238510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A48B5CF-2485-45C4-B2C8-5EFB5E5A1B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A48B5CF-2485-45C4-B2C8-5EFB5E5A1B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A48B5CF-2485-45C4-B2C8-5EFB5E5A1B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A48B5CF-2485-45C4-B2C8-5EFB5E5A1B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9345D5B-EEFB-41E4-9E7A-B664DF54865A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9345D5B-EEFB-41E4-9E7A-B664DF54865A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9345D5B-EEFB-41E4-9E7A-B664DF54865A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9345D5B-EEFB-41E4-9E7A-B664DF54865A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D00765-0E0D-4E89-8D9E-29C1CC44A7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D00765-0E0D-4E89-8D9E-29C1CC44A7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D00765-0E0D-4E89-8D9E-29C1CC44A7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D00765-0E0D-4E89-8D9E-29C1CC44A7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37342AB-89DA-4952-9FB8-E6C6789D4F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37342AB-89DA-4952-9FB8-E6C6789D4F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37342AB-89DA-4952-9FB8-E6C6789D4F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37342AB-89DA-4952-9FB8-E6C6789D4F57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
