@@ -46,11 +46,11 @@ class Program
         oled2.Clear();
         oled2.TurnOff();
 
-        TestOffset(0);
-        TestOffset(1);
+        TestOffset(0, 25);
+        TestOffset(1, 26);
     }
 
-    public static void TestOffset(int chipsetselect)
+    public static void TestOffset(int chipsetselect, int dcPin)
     {
         var gpio = new GpioController();
 
@@ -62,7 +62,7 @@ class Program
             }
         );
 
-        var oled = new Sh1107OffsetTest(spi, gpio, dcPin: 25, resetPin: 24);
+        var oled = new Sh1107OffsetTest(spi, gpio, dcPin: dcPin, resetPin: 24);
 
         for (int offset = 0; offset <= 96; offset += 8) // Steps of 8 up to 0x60
         {
