@@ -45,14 +45,17 @@ class Program
 
         oled2.Clear();
         oled2.TurnOff();
+
+        TestOffset(0);
+        TestOffset(1);
     }
 
-    public static void TestOffset()
+    public static void TestOffset(int chipsetselect)
     {
         var gpio = new GpioController();
 
         var spi = SpiDevice.Create(
-            new SpiConnectionSettings(0, 0) // Change to CE1 for second OLED
+            new SpiConnectionSettings(0, chipsetselect) // Change to CE1 for second OLED
             {
                 ClockFrequency = 10_000_000,
                 Mode = SpiMode.Mode0,
@@ -71,6 +74,8 @@ class Program
 
             Thread.Sleep(1000);
         }
+
+        oled.TurnOff();
     }
 }
 
