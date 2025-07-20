@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj": {}
+    "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj": {
+    "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj",
+        "projectUniqueName": "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj",
         "projectName": "DisplayCore",
-        "projectPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj",
+        "projectPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj",
         "packagesPath": "C:\\Users\\Bende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\obj\\",
+        "outputPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bende\\AppData\\Roaming\\NuGet\\NuGet.Config"

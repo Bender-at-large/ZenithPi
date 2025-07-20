@@ -11,5 +11,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
+<PropertyGroup>
+  <EnableWindowsTargeting>true</EnableWindowsTargeting>
+</PropertyGroup>
 </Project>

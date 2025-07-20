@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPi\\ZenithPi.csproj": {}
+    "c:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPi\\ZenithPi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPi\\ZenithPi.csproj": {
+    "c:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPi\\ZenithPi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPi\\ZenithPi.csproj",
+        "projectUniqueName": "c:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPi\\ZenithPi.csproj",
         "projectName": "ZenithPi",
-        "projectPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPi\\ZenithPi.csproj",
+        "projectPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPi\\ZenithPi.csproj",
         "packagesPath": "C:\\Users\\Bende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPi\\obj\\",
+        "outputPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\ZenithPi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bende\\AppData\\Roaming\\NuGet\\NuGet.Config"
