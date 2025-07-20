@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj": {}
+    "c:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj": {
+    "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj",
+        "projectUniqueName": "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj",
         "projectName": "DisplayCore",
-        "projectPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj",
+        "projectPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj",
         "packagesPath": "C:\\Users\\Bende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\obj\\",
+        "outputPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj": {
+    "c:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj",
+        "projectUniqueName": "c:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj",
         "projectName": "PimoroniSh1107Driver",
-        "projectPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj",
+        "projectPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\PimoroniSh1107Driver.csproj",
         "packagesPath": "C:\\Users\\Bende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\obj\\",
+        "outputPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\PimoroniSh1107Driver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -84,8 +84,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj": {
-                "projectPath": "C:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj"
+              "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj": {
+                "projectPath": "c:\\Users\\Bende\\Documents\\ZenithPi\\DisplayCore\\DisplayCore.csproj"
               }
             }
           }
