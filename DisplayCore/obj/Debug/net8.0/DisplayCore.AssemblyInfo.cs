@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DisplayCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e72a530d81dc2aba97b47c4f45bf4360ff54dadd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dbd1abb5f85defe7190493e963927669ba6266b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DisplayCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DisplayCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
